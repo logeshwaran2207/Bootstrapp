@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skateboard</title>
+    <link rel="icon" href="./img/download.png">
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body >
+   
+    
+    <!---navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand">
+                <span class="fw-bold ">
+                    <h3>Eparampara - The Skateboard 🛹</h3>
+                </span>
+            </a>
+
+            <!--toggle button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main-nav " aria-controls="main-nav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-togger-ico"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse justify-content-end align-center"
+            id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#topics"> About the Skateboard</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews"> Reviews</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="contact"> Get in touch</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="pricising"> Pricing</a>
+                </li> 
+                <li  class="nav-item ms-2 d-none d-md-inline">
+                    <a  class="btn btn-danger">Buy Now</a>
+                     
+                </li>
+
+            
+            </ul>
+
+            </div>
+
+
+
+        </div>
+
+
+    </nav>
+    
+    <!--main image & intro text-->
+    <section id="intro" >
+        <div class="container-lg">
+          <div class="row justify-content-center align-items-center">
+           <div class="col-md-5 text-center text-md-start">
+              <h1>
+                 <div class="display-2">Skateboard</div>
+                <div class="display-5 text-muted" style="font-family: coß;">Take Flight on Four Wheels</div>
+              </h1> 
+             
+                <p class="lead my-4 text-muted">In skateboarding, you're never bigger than the streets.</p>
+                <a href="#pricing" class="btn btn-danger btn-lg"> Buy Now</a>
+
+                <!--open sidebar / offcanvas-->
+                <a href="#sidebar" class="d-block mt-3" 
+                data-bs-toggle="offcanvas"
+                role="button" aria-controls="sidebar">Explore my other Skateboard</a>
+              
+              
+
+           </div>
+           <div class="col-md-5 text-center d-none d-md-block ">
+
+
+            <!--tooltip-->
+            <span class="tt" data-bs-placement="bottom" title="Eparampara Skateboard" >
+            <img class="img-fluid" src="./img/kid-skateboard-icon-flat-illustration-kid-skateboard-vector-icon-web-design_98396-15603.avif" alt="">  
+        </span>
+         </div>
+ 
+          </div>
+        </div>
+          
+       </section>
+
+
+       <!--Pricing plans-->
+       <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+            <h2>Pricing Plans</h2>
+            <p class="lead text-muted"> Choose a pricing plan to suit you</p> 
+        </div>
+        <div class="row my-5 algin-items-center justify-content-center"> 
+            <div class="col-8 col-lg-4 col-xl-3 mb-3">
+               
+                <div class="card border-0">
+                    <img src="./img/skateboard-illustration-design_23-2151074104.avif" alt="">
+                    <div class="card-body text-center py-4">
+                       
+                        <h4 class="card-title">Starter Edition</h4>
+                        <p class="lead.card-subtitle">WhiteBoard</p>
+                        <p class="dispaly-5 my-4 text-primary fw-bold">₹ 500</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a class="btn btn-outline-primary btn-lg mt-3"  href="">Buy Now</a> 
+                    
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3 mb-3">
+               
+                <div class="card border-0">
+                    <img src="./img/360_F_1408377425_Tq9MmXcgmPDcCrex8xs72nfbLhieZbx5.jpg" alt="">
+                    <div class="card-body text-center py-4"> 
+                       
+                        <h4 class="card-title">Cool Edition</h4>
+                        
+                        <p class="lead.card-subtitle">ZoomBug</p>
+                        <p class="dispaly-5 my-4 text-primary fw-bold">₹ 850</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a class="btn btn-outline-primary btn-lg mt-3"  href="">Buy Now</a> 
+                    
+                    </div>
+                </div>
+    
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3 mb-3">
+               
+                <div class="card border-0">
+                    <img src="./img-2/skateboard-Xl48r26-600.jpg" alt="">
+                    <div class="card-body text-center py-4"> 
+                       
+                        <h4 class="card-title">CoolBlack Edition</h4>
+                        
+                        <p class="lead.card-subtitle">LunaBoard</p>
+                        <p class="dispaly-5 my-4 text-primary fw-bold">₹ 900</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a class="btn btn-outline-primary btn-lg mt-3"  href="">Buy Now</a> 
+                    
+                    </div>
+                </div>
+    
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3 mb-3">
+               
+                <div class="card border-0">
+                    <img src="./img-2/red-skateboard-o0a4JaC-600.jpg" alt="">
+                    <div class="card-body text-center py-4"> 
+                       
+                        <h4 class="card-title">Smart Edition</h4>
+                        
+                        <p class="lead.card-subtitle">Vibe Queen</p>
+                        <p class="dispaly-5 my-4 text-primary fw-bold">₹ 500</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a class="btn btn-outline-primary btn-lg mt-3"  href="">Buy Now</a> 
+                    
+                    </div>
+                </div>
+    
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3 mb-3">
+               
+                <div class="card border-0">
+                    <img src="./img-2/red-skateboard-black-checkerboard-pattern-features-four-black-wheels-attached-red-skateboard-black-checkerboard-pattern-387689570.webp" alt="">
+                    <div class="card-body text-center py-4"> 
+                       
+                        <h4 class="card-title">RaceTrack Edition</h4>
+                        
+                        <p class="lead.card-subtitle">StreetBelle</p>
+                        <p class="dispaly-5 my-4 text-primary fw-bold">₹ 700</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a class="btn btn-outline-primary btn-lg mt-3"  href="">Buy Now</a> 
+                    
+                    </div>
+                </div>
+    
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3 mb-3">
+               
+                <div class="card border-0">
+                    <img src="./img-2/612713_alt2_eadccbsbnx18tij8.webp" alt="">
+                    <div class="card-body text-center py-4"> 
+                       
+                        <h4 class="card-title">Ferrari Edition</h4>
+                        
+                        <p class="lead.card-subtitle">Dark Wheel</p>
+                        <p class="dispaly-5 my-4 text-primary fw-bold">₹ 950</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a class="btn btn-outline-primary btn-lg mt-3"  href="">Buy Now</a> 
+                    
+                    </div>
+                </div>
+    
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3 mb-3">
+               
+                <div class="card border-0">
+                    <img src="./img-2/skateboard-red-wheels-silver-trucks-detailed-design-wooden-deck-isolated-white-background-transparent-png-ai-generated-362605972.webp" alt="">
+                    <div class="card-body text-center py-4"> 
+                       
+                        <h4 class="card-title">Cartoon Edition</h4>
+                        
+                        <p class="lead.card-subtitle">Drift King</p>
+                        <p class="dispaly-5 my-4 text-primary fw-bold">₹ 700</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a class="btn btn-outline-primary btn-lg mt-3"  href="">Buy Now</a> 
+                    
+                    </div>
+                </div>
+    
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3 md-3">
+                <div class="card border-0">
+                    <img src="./img/skateboard-illustration-design_23-2151074100.avif" alt="">
+                    <div class="card-body text-center py-4"> 
+                        <h4 class="card-title">Fire Edition</h4>
+                        <p class="lead.card-subtitle">FastBoard</p>
+                        <p class="dispaly-5 my-4 text-primary fw-bold">₹ 1000</p>
+                        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <a class="btn btn-outline-primary btn-lg mt-3"  href="">Buy Now</a> 
+                    
+                    </div>
+                </div>
+    
+            </div>
+          
+
+        </div>
+        
+       
+
+    </div>
+
+        </div>
+
+       </section>
+
+
+       <!--topics at glance-->
+ <section id="topics"> 
+    <div class="container-md">
+        <div class="text-center">
+            <h2>"Ride, Trick, Repeat – Mastering the Art of Skateboarding"</h2>
+            <p class="lead text-muted"> A quick glance at the topics you'll learn</p>
+            </div>
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+
+                <div class="col-6 col-lg-4">
+                    <img src="./img/skateboard-illustration-design_23-2151074107.avif" alt="" class="img-fluid">
+                </div>
+            
+                                  
+                
+                <!--accordion -->
+                <div class="col-lg-6">
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            🛹 What is a Skateboard?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            A skateboard is a flat board with four wheels that people ride and perform tricks on. It’s not just a mode of transportation — it’s a lifestyle and a popular extreme sport practiced by millions around the world.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            🔧 Parts of a Skateboard
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <strong>    Deck:</strong> The wooden board where the rider stands. Usually made from layers of maple wood. <br>
+
+                        <strong>    Trucks: </strong> Metal T-shaped parts that connect the wheels to the deck and allow turning. <br>
+                            
+                            <strong>  Wheels:</strong>  Usually made of polyurethane, they vary in size and hardness based on the rider’s style. <br>
+                            
+                                <strong>     Bearings: </strong> Small metal rings that go inside the wheels to help them spin smoothly. <br>
+                            
+                                    <strong>  Grip Tape: </strong> A sandpaper-like sheet stuck to the top of the deck for traction. <br>
+                            
+                            
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            🧑‍🎤 Types of Skateboarding
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                           <strong>Street:</strong> Performed in urban areas using stairs, rails, benches, etc. <br>
+
+                           <strong>Vert:</strong> Involves ramps and halfpipes, focusing on air tricks. <br>
+                            
+                           <strong> Cruising: </strong>Smooth riding, often for transportation or casual fun. <br>
+                            
+                           <strong> Freestyle: </strong>Technical tricks performed on flat ground. <br>
+                            
+                            
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            🚶 How to Ride a Skateboard
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>1. Get the Right Gear:</strong> Wear a helmet, knee pads, elbow pads, and skate shoes.<br><br>
+                      
+                            <strong>2. Find Your Stance:</strong> Regular (left foot forward) or Goofy (right foot forward).<br><br>
+                      
+                            <strong>3. Balance:</strong> Practice standing on your board on grass or carpet to get used to it.<br><br>
+                      
+                            <strong>4. Push Off:</strong> Place your front foot on the board and push with your back foot, then place it on the board.<br><br>
+                      
+                            <strong>5. Turn:</strong> Lean your body slightly in the direction you want to turn.<br><br>
+                      
+                            <strong>6. Stop:</strong> Use your back foot to gently drag on the ground or press the tail down to slow down.<br><br>
+                      
+                            <strong>7. Practice:</strong> Find a smooth flat area like a driveway or park and ride often!
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+        </div>
+
+    </div>
+</section>
+
+<!--reviewlist-->
+<section id="reviews" class="bg-light">
+    <div class="container-lg">
+        <div class="text-center">
+
+            <h2>Skateboard Reviews</h2>
+            <p class="lead">What Our Riders Are Saying</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="list-group">
+                    <div class="list-group-item py-3">
+                        <h5 class="mb-1">⭐⭐⭐⭐☆</h5>
+                        <p class="mb-1">"Bought my first cruiser board from here and the quality blew me away. Super smooth ride and great grip. Staff helped me pick the right size too. 100% coming back!"
+                        </p>
+                        <small>Rahul M. – Chennai </small>
+               
+                    </div> 
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="list-group">
+                    <div class="list-group-item py-3">
+                        <h5 class="mb-1">⭐⭐⭐⭐⭐</h5>
+                        <p class="mb-1">"Nice collection of decks and accessories. A few designs were out of stock but the team offered great alternatives. Appreciate the support!"
+
+                        </p>
+                       <small>Arjun K. – Hyderabad </small>
+                    </div> 
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="list-group">
+                    <!-- Review 1 -->
+                    <div class="list-group-item py-3">
+                        <h5 class="mb-1">⭐⭐⭐⭐⭐</h5>
+                        <p class="mb-1">
+                            "Nice collection of decks and accessories. A few designs were out of stock but the team offered great alternatives. Appreciate the support!"
+                        </p>
+                        <small>Arjun K. – Hyderabad</small>
+                    </div>
+            
+                    <!-- Review 2 -->
+                    <div class="list-group-item py-3">
+                        <h5 class="mb-1">⭐⭐⭐⭐☆</h5>
+                        <p class="mb-1">
+                            "Loved the vibe in the shop! Got a helmet and board for my nephew’s birthday. He hasn’t stopped riding since. Prices were decent too."
+                        </p>
+                        <small>Megha P. – Pune</small>
+                    </div>
+            
+                    <!-- Review 3 -->
+                    <div class="list-group-item py-3">
+                        <h5 class="mb-1">⭐⭐⭐⭐⭐</h5>
+                        <p class="mb-1">
+                            "This is my third purchase and every time it’s been smooth. The bearings they use are top-notch — never had a smoother ride. Highly recommended for serious skaters."
+                        </p>
+                        <small>Karthik S. – Mumbai</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-8">
+                <div class="list-group">
+                    <div class="list-group-item py-3">
+                        <h5 class="mb-1">⭐⭐⭐⭐☆</h5>
+                        <p class="mb-1">"These guys really know their stuff. I needed a board for street tricks and they customized it perfectly. Fast delivery and solid customer service."</p>
+                       <small>Sneha R. – Bengaluru </small>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+<!--contact form-->
+<!-- form control--- from label-- form select---input group----input-group-text-->
+<section id="contact">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>Get in Touch</h2>
+            <p class="lead">Question to ask? Fill out the forms to contact me directly...</p>
+        </div>
+        <div class="row justify-content-center my-5">
+
+            <div class="col-lg-6">
+                <form>
+                    <label for="email" class="for-label">Email address</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                        </span>
+                    <input type="email" class="form-control" id="email" 
+                    placeholder="e.g  mario@gmail.com">
+                    
+                    <!--tooltip-->
+                    <span class="input-group-text">
+                        <Span class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to.">
+                        <i class="bi bi-question-circle text-muted"></i>
+                    </Span>
+                    </span>
+                     
+                     
+
+
+                </div>
+                    <label for="name" class="form-label"> Name</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-envelope-at"></i>
+                        </span>
+                    <input type="text" class="form-control" id="name" placeholder="e.g  Logesh">
+                    <span class="input-group-text">
+                        <Span class="tt" data-bs-placement="bottom" title="Enter your Name">
+                        <i class="bi bi-question-circle text-muted"></i>
+                    </Span>
+                    </span>
+                </div>
+                    <label for="subject" class="form-label">What is your question about?</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-chat-dots"></i>
+                        </span>
+                    <select class="form-select" id="subject">
+                        <option value="pricing" selected>Pricing Query</option>
+                        <option value="pricing">Contact Query</option>
+                        <option value="pricing">Other Query</option>
+
+                    </select>
+                </div>
+
+                    <div class="form-floating mb-4 mt-4">
+                        <textarea  id="query" class="form-control" style="height: 140px;"></textarea>
+                        <label for="query">Your query....</label>
+                    </div>
+
+                    <div class="mb-4 text-center">
+                        <button type="submit" class="btn btn-secondary">Summit</button>
+                    </div>
+                    
+                   
+
+
+                
+                </form>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--get model--- model trigger-->
+
+<section class="bg-light">
+    <div class="container">
+        <div class="text-center">
+            <h2>Stay in the Loop</h2>
+            <p class="lead">Get the latest updates as they happen......</p>
+
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Ipsa nesciunt ullam, quisquam repellendus modi 
+                    pariatur dignissimos quis corrupti ea accusamus assumenda nemo lab
+                    ore at, molestias ad tempora qui sunt velit dolor, laboriosam pers
+                    piciatis. Eligendi, quis voluptate sed odio inventore officiis! Cu
+                    mque 
+                    harum sed quibusdam! Aperiam ut ea cumque repell
+                    endus quidem?</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#reg-modal">Register for Updates</button>
+
+            </div>
+        </div>
+ 
+    </div>
+</section>
+
+<!--model  iteself-->
+
+<!-- Modal -->
+<div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <!-- Modal Body -->
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sapiente cumque incidunt quam, iste eligendi excepturi, tempore iusto odio repellat sunt. Assumenda nemo porro libero?</p>
+          
+          <label for="modal-email" class="form-label">Your email address:</label>
+          <input type="email" class="form-control" id="modal-email" placeholder="e.g. mario@gmail.com">
+        </div>
+  
+        <!-- Modal Footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+
+  <!--off canvas-->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar"
+  aria-labelledby="sidebar-label">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="sidebar-label">My Other Skateboard
+
+    </h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+    aria-label="close"></button>
+</div>
+    <div class="offcanvas-body">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Voluptatem nemo nostrum doloremque facilis 
+            accusantium repudiandae aliquid ipsam, eveniet modi unde?</p>
+
+            <!--Dropdown-->
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button"
+                id="book-dropdown" data-bs-toggle="dropdown">
+                Choose the Skateboard
+
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                    <li><a href="#" class="dropdown-item"> Become a SkateBoard Hero</a></li>
+                    <li><a href="#" class="dropdown-item"> Become a SkateBoard Hero</a></li>
+                    <li><a href="#" class="dropdown-item"> Become a SkateBoard Hero</a></li>
+
+                </ul>
+
+            </div>
+    
+
+
+     
+  </div>
+
+
+
+
+
+</div>
+    
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
+crossorigin="anonymous"></script>
+     <script>
+        const tooltips=document.querySelector('.tt')
+        tooltips.forEach(t=>{
+        new bootstrap.Tooltip(t)
+        })
+
+     </script>
+    
+</body>
+</html>
